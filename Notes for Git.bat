@@ -15,3 +15,6 @@ git remote update => Server changes are updated in local machine (branches are n
 git remote update --prune => reflects the changes in branch as well as files. 
 
 git checkout featurebranch => to swith to existing branch
+
+git log => Shows the commit history in chronological desc. order(latest first).
+git reset --hard <commit hash obtained from git log>(Angular brackets arent there).=> Rolls back all the changes after the specifed commit.
